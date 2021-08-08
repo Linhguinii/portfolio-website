@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css';
 import Intro from "./Intro";
 
 class App extends React.Component {
@@ -11,6 +12,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <Router>
+          <nav class="navbar navbar-expand bg-dark">
+            <div class ="container-fluid">
+              <ul class="navbar=nav mb-2">
+              </ul>
+            </div>
+          </nav>
           <Switch>
             <Route path="/Intro">
               <Intro/>
