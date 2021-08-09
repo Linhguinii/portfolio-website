@@ -24,7 +24,7 @@ class Intro extends React.Component{
 					</div>
 				</div>
         <br></br>
-        <p>This is who I am.</p>
+        <p>This is who I am currently.</p>
         <img id="code" src={require("./images/kid_computer.jpeg").default}/>
         <img id="bouldering" src={require("./images/bouldering.jpeg").default}/>
         <br></br>
