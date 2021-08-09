@@ -16,6 +16,9 @@ class Intro extends React.Component{
         <p>This is who I am.</p>
         <img id="code" src={require("./images/kid_computer.jpeg").default}/>
         <img id="bouldering" src={require("./images/bouldering.jpeg").default}/>
+        <br></br>
+        <img src={require("./images/GitHub-Mark-32px.png").default}/>
+        <img style={{height: '32px', width: '32px'}} src={require("./images/linkedin.png").default}/>
       </div>
     )
   }
