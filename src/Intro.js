@@ -20,7 +20,7 @@ class Intro extends React.Component{
 						<p>Hello, I am a Computer Science student.</p>
 					</div>
 					<div>
-						<p>안녕, 나는 컴퓨터 공학 학생 이에요.</p>
+						<p>안녕하세요, 저는 컴퓨터 공학 학생 이에요.</p>
 					</div>
 				</div>
         <br></br>
