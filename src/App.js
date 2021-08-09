@@ -20,7 +20,7 @@ class App extends React.Component {
 									<a class="nav-link" style = {{textDecoration: 'none', color: 'white'}}>Projects</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" style = {{textDecoration: 'none', color: 'white'}}>Contact</a>
+									<a class="nav-link" style = {{textDecoration: 'none', color: 'white'}} href="mailto:linh.hoangtt99@gmail.com">Contact</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" style = {{textDecoration: 'none', color: 'white'}}>Resume</a>
