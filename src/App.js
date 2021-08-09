@@ -14,7 +14,19 @@ class App extends React.Component {
         <Router>
           <nav class="navbar navbar-expand">
             <div class ="container-fluid">
-              <ul class="navbar=nav mb-2">
+              <ul class="navbar-nav mb-2">
+								<a class="navbar-brand" href="">
+									<Link style={{textDecoration: 'none', color: 'white'}}>Linh</Link>
+								</a>
+								<li class="nav-item">
+									<Link style = {{textDecoration: 'none', color: 'white'}}>Projects</Link>
+								</li>
+								<li class="nav-item">
+									<Link style = {{textDecoration: 'none', color: 'white'}}>Contact</Link>
+								</li>
+								<li class="nav-item">
+									<Link style = {{textDecoration: 'none', color: 'white'}}>Resume</Link>
+								</li>
               </ul>
             </div>
           </nav>
