@@ -19,10 +19,10 @@ class Intro extends React.Component{
         <br></br>
         <br></br>
         <a href="https://github.com/Linhguinii" target="__blank">
-          <img src={require("./images/GitHub-Mark-32px.png").default} alt="github-logo"></img>
+          <img src={require("./images/GitHub-Mark-Light-32px.png").default} alt="github-logo"></img>
         </a>
         <a href="https://www.linkedin.com/in/hoanglinh99/" target="__blank">
-          <img style={{height: '32px', width: '32px'}} src={require("./images/linkedin.png").default} alt="linkedin-logo"></img>
+          <img style={{height: '32px', width: '32px'}} src={require("./images/linkedin-3-32.png").default} alt="linkedin-logo"></img>
         </a>
       </div>
     )
