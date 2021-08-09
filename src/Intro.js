@@ -1,4 +1,5 @@
 import React from 'react';
+import './Intro.css';
 
 class Intro extends React.Component{
   constructor(props){
@@ -13,7 +14,8 @@ class Intro extends React.Component{
         <p>안녕, 나는 컴퓨터 공학 학생 이에요.</p>
         <br></br>
         <p>This is who I am.</p>
-        <img src={require("./images/bouldering.jpeg").default}/>
+        <img id="code" src={require("./images/kid_computer.jpeg").default}/>
+        <img id="bouldering" src={require("./images/bouldering.jpeg").default}/>
       </div>
     )
   }
