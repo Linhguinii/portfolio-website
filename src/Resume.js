@@ -1,16 +1,16 @@
 import React from 'react';
 
-class Resume from React.Component{
+class Resume extends React.Component{
   constructor(props){
     super(props);
   }
   render(){
     return(
       <div>
-        test
+        <img src={require("./images/Resume.jpg").default} alt="Resume" style={{height: '70vw'}} />
       </div>
     )
   }
 }
 
-export default Resume
+export default Resume;

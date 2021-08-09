@@ -24,7 +24,7 @@ class App extends React.Component {
                   <a class="nav-link" style = {{textDecoration: 'none', color: 'white'}} href="mailto:linh.hoangtt99@gmail.com">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style = {{textDecoration: 'none', color: 'white'}}>Resume</a>
+                  <a class="nav-link" style = {{textDecoration: 'none', color: 'white'}} href="/Resume">Resume</a>
                 </li>
               </ul>
             </div>
@@ -32,6 +32,9 @@ class App extends React.Component {
           <Switch>
             <Route path="/Intro">
               <Intro/>
+            </Route>
+            <Route path="/Resume">
+              <Resume/>
             </Route>
             <Route path="/">
               <Redirect to="/Intro"/>
