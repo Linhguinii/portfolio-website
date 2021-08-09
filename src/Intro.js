@@ -17,8 +17,13 @@ class Intro extends React.Component{
         <img id="code" src={require("./images/kid_computer.jpeg").default}/>
         <img id="bouldering" src={require("./images/bouldering.jpeg").default}/>
         <br></br>
-        <img src={require("./images/GitHub-Mark-32px.png").default}/>
-        <img style={{height: '32px', width: '32px'}} src={require("./images/linkedin.png").default}/>
+        <br></br>
+        <a href="https://github.com/Linhguinii" target="__blank">
+          <img src={require("./images/GitHub-Mark-32px.png").default} alt="github-logo"></img>
+        </a>
+        <a href="https://www.linkedin.com/in/hoanglinh99/" target="__blank">
+          <img style={{height: '32px', width: '32px'}} src={require("./images/linkedin.png").default} alt="linkedin-logo"></img>
+        </a>
       </div>
     )
   }
