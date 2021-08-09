@@ -6,7 +6,9 @@ class Resume from React.Component{
   }
   render(){
     return(
-
+      <div>
+        test
+      </div>
     )
   }
 }

@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import Intro from "./Intro";
+import Resume from "./Resume";
 
 class App extends React.Component {
   constructor(props){
@@ -14,17 +15,17 @@ class App extends React.Component {
         <Router>
           <nav class="navbar navbar-expand">
             <div class ="container-fluid">
-							<a class="navbar-brand" href="" style={{textDecoration: 'none', color: 'white'}}>Linh</a>
+              <a class="navbar-brand" href="" style={{textDecoration: 'none', color: 'white'}}>Linh</a>
               <ul class="navbar-nav mb-2">
-								<li class="nav-item">
-									<a class="nav-link" style = {{textDecoration: 'none', color: 'white'}}>Projects</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" style = {{textDecoration: 'none', color: 'white'}} href="mailto:linh.hoangtt99@gmail.com">Contact</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" style = {{textDecoration: 'none', color: 'white'}}>Resume</a>
-								</li>
+                <li class="nav-item">
+                  <a class="nav-link" style = {{textDecoration: 'none', color: 'white'}}>Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style = {{textDecoration: 'none', color: 'white'}} href="mailto:linh.hoangtt99@gmail.com">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style = {{textDecoration: 'none', color: 'white'}}>Resume</a>
+                </li>
               </ul>
             </div>
           </nav>
