@@ -12,7 +12,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Router>
-          <nav class="navbar navbar-expand bg-dark">
+          <nav class="navbar navbar-expand bg-danger">
             <div class ="container-fluid">
               <ul class="navbar=nav mb-2">
               </ul>
