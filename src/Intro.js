@@ -42,7 +42,7 @@ class Intro extends React.Component{
           <img src={require("./images/GitHub-Mark-Light-32px.png").default} alt="github-logo"></img>
         </a>
         <a href="https://www.linkedin.com/in/hoanglinh99/" target="__blank">
-          <img style={{height: '32px', width: '32px'}} src={require("./images/linkedin-3-32.png").default} alt="linkedin-logo"></img>
+          <img class="linkedin" style={{height: '32px', width: '32px'}} src={require("./images/linkedin-3-32.png").default} alt="linkedin-logo"></img>
         </a>
       </div>
     )
