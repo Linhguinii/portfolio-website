@@ -27,13 +27,13 @@ class Intro extends React.Component{
         <p>This is who I am currently.</p>
         <div class="d-flex justify-content-around">
           <div class="p">
-            <img id="code" src={require("./images/kid_computer.jpeg").default}/>
+            <img id="code" class="rounded" src={require("./images/kid_computer.jpeg").default}/>
           </div>
           <div class="p">
-            <img id="bouldering" src={require("./images/bouldering.jpeg").default} style={{height: '450px'}}/>
+            <img id="bouldering" class="rounded" src={require("./images/bouldering.jpeg").default} style={{height: '450px'}}/>
           </div>
           <div class="p">
-            <img id="dancing" src={require("./images/dancing4.jpg").default}/>
+            <img id="dancing" class="rounded" src={require("./images/dancing4.jpg").default}/>
           </div>
         </div>
         <br></br>
