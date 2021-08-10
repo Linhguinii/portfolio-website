@@ -24,7 +24,7 @@ class Intro extends React.Component{
           </div>
         </div>
         <br></br>
-        <p>This is who I am currently.</p>
+        <p><strong>This is who I am</strong></p>
         <div class="d-flex justify-content-around">
           <div class="p">
             <img id="code" class="rounded" src={require("./images/kid_computer.jpeg").default}/>
