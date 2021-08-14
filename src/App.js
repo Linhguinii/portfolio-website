@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import Intro from "./Intro";
 import Resume from "./Resume";
@@ -16,16 +16,16 @@ class App extends React.Component {
         <Router>
           <nav class="navbar navbar-expand">
             <div class ="container-fluid">
-              <a class="navbar-brand" href="/Intro" style={{textDecoration: 'none', color: 'white'}}>Linh</a>
+              <Link class="navbar-brand" to="/Intro" style={{textDecoration: 'none', color: 'white'}}>Linh</Link>
               <ul class="navbar-nav mb-2">
                 <li class="nav-item">
-                  <a class="nav-link" style = {{textDecoration: 'none', color: 'white'}} href="/Projects">Projects</a>
+                  <Link class="nav-link" style = {{textDecoration: 'none', color: 'white'}} to="/Projects">Projects</Link>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" style = {{textDecoration: 'none', color: 'white'}} href="mailto:linh.hoangtt99@gmail.com">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style = {{textDecoration: 'none', color: 'white'}} href="/Resume">Resume</a>
+                  <Link class="nav-link" style = {{textDecoration: 'none', color: 'white'}} to="/Resume">Resume</Link>
                 </li>
               </ul>
             </div>
