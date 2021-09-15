@@ -16,7 +16,7 @@ class App extends React.Component {
         <Router>
           <nav class="navbar navbar-expand">
             <div class ="container-fluid">
-              <Link class="navbar-brand" to="/Intro" style={{textDecoration: 'none', color: 'white'}}>Linh</Link>
+              <Link class="navbar-brand" to="/" style={{textDecoration: 'none', color: 'white'}}>Linh</Link>
               <ul class="navbar-nav mb-2">
                 <li class="nav-item">
                   <Link class="nav-link" style = {{textDecoration: 'none', color: 'white'}} to="/Projects">Projects</Link>
@@ -31,9 +31,6 @@ class App extends React.Component {
             </div>
           </nav>
           <Switch>
-            <Route path="/Intro">
-              <Intro/>
-            </Route>
             <Route path="/Projects">
               <Projects/>
             </Route>
@@ -41,7 +38,7 @@ class App extends React.Component {
               <Resume/>
             </Route>
             <Route path="/">
-              <Redirect to="/Intro"/>
+              <Intro/>
             </Route>
           </Switch>
         </Router>
