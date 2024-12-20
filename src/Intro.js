@@ -8,41 +8,17 @@ class Intro extends React.Component{
   }
   render(){
     return(
-      <div>
-        <div id="introduction" class="d-flex flex-column align-items-start">
-          <div>
-            <p>Xin chào, tôi là một sinh viên khoa học máy tính.</p>
-          </div>
-          <div>
-            <p>Bonjour, je suis un étudiant d&#39;informatique.</p>
-          </div>
-          <div>
-            <p>Hello, I am a Computer Science student.</p>
-          </div>
-          <div>
-            <p>안녕하세요, 저는 컴퓨터 공학 학생 이에요.</p>
+      <div id="main-container">
+        <div id="intro-container">
+          <div id="introduction" class="d-flex flex-column align-items-start">
+            <div>
+              <p>Hello! name's Linh. I am currently a Software Engineer @AWS working on Vpc Lattice, a networking service that allows customers to easily connect their services without any prior expertise.
+                Outside of work, I enjoy playing volleyball, exploring new cafes/restaurants and learning new skills. Recently, I really like learning new languages. I've been learning Korean for about 2 years 
+                and went on a solo trip to South Korea to explore the city and meet the locals. (Does that make me a polyglot? French, English, Vietnamese, Korean)
+              </p>
+            </div>
           </div>
         </div>
-        <br></br>
-        <div class="d-flex justify-content-around">
-          <div class="p">
-            <img id="code" class="rounded" src={require("./images/kid_computer.jpeg").default}/>
-          </div>
-          <div class="p">
-            <img id="bouldering" class="rounded" src={require("./images/bouldering.jpeg").default} style={{height: '450px'}}/>
-          </div>
-          <div class="p">
-            <img id="dancing" class="rounded" src={require("./images/dancing4.jpg").default}/>
-          </div>
-        </div>
-        <br></br>
-        <br></br>
-        <a href="https://github.com/Linhguinii" target="__blank">
-          <img src={require("./images/GitHub-Mark-Light-32px.png").default} alt="github-logo"></img>
-        </a>
-        <a href="https://www.linkedin.com/in/hoanglinh99/" target="__blank">
-          <img class="linkedin" style={{height: '32px', width: '32px'}} src={require("./images/linkedin-3-32.png").default} alt="linkedin-logo"></img>
-        </a>
       </div>
     )
   }

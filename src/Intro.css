@@ -4,25 +4,30 @@ body{
 p{
 	color: white;
 }
-#bouldering{
-	width: 300px;
+
+#intro-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh; /* Full viewport height */
 }
 
-#code{
-	width: 300px;
-}
-
-#dancing{
-	width:300px;
-	height: 450px;
+#main-container {
+	background-image: url('./images/cafe.jpg'), url('./images/volleyball.jpg'), url('./images/korea.jpg');
+	background-size: contain, contain, contain;
+	background-position: left center, center center, right center; 
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	height: 100vh;
 }
 
 #introduction{
-	margin-top: 2vw;
-	margin-left: 20vw;
+	/* margin-top: 2vw;
+	margin-left: 20vw; */
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	max-width: 700px; /* Set a maximum width */
+	width: 100%; /* Ensure it takes full width up to the max-width */
+	padding: 20px; /* Add some padding for better readability */
+	font-weight: bold;
 }
-
-.linkedin{
-	margin-left: 1vw;
-}
-

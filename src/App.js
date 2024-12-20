@@ -16,8 +16,18 @@ class App extends React.Component {
         <Router>
           <nav class="navbar navbar-expand">
             <div class ="container-fluid">
-              <Link class="navbar-brand" to="/" style={{textDecoration: 'none', color: 'white'}}>Linh</Link>
+              <Link class="navbar-brand" to="/" style={{textDecoration: 'none', color: 'white'}}>Linh Hoang</Link>
               <ul class="navbar-nav mb-2">
+                <li className="nav-item">
+                  <a className="nav-link" href="https://github.com/Linhguinii" target="_blank" rel="noopener noreferrer">
+                    <img src={require("./images/GitHub-Mark-Light-32px.png").default} alt="github-logo" style={{ height: '24px', width: '24px' }} />
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="https://www.linkedin.com/in/hoanglinh99/" target="_blank" rel="noopener noreferrer">
+                    <img className="linkedin" style={{ height: '24px', width: '24px' }} src={require("./images/linkedin-3-32.png").default} alt="linkedin-logo" />
+                  </a>
+                </li>
                 <li class="nav-item">
                   <Link class="nav-link" style = {{textDecoration: 'none', color: 'white'}} to="/Projects">Projects</Link>
                 </li>
