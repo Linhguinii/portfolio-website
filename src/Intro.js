@@ -10,13 +10,13 @@ class Intro extends React.Component{
     return(
       <div id="main-container">
         <div id="intro-container">
-          <div id="introduction" class="d-flex flex-column align-items-start">
-            <div>
-              <p>Hello! name's Linh. I am currently a Software Engineer @AWS working on Vpc Lattice, a networking service that allows customers to easily connect their services without any prior expertise.
-                Outside of work, I enjoy playing volleyball, exploring new cafes/restaurants and learning new skills. Recently, I really like learning new languages. I've been learning Korean for about 2 years 
-                and went on a solo trip to South Korea to explore the city and meet the locals. (Does that make me a polyglot? French, English, Vietnamese, Korean)
-              </p>
-            </div>
+          <div id="introduction">
+            <h1>Linh Hoang</h1>
+            <div className="role">Software Engineer</div>
+            <p>
+              After graduating from Mcgill, I moved to Vancouver, and worked on VPC Lattice (AWS), a networking proxy that simplifies connectivity between services, for 4 years.
+              Outside of work, I play volleyball, read books, hunt for good cafes, and learn new skills (e.g. languages and music).
+            </p>
           </div>
         </div>
       </div>
