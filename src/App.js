@@ -28,9 +28,9 @@ class App extends React.Component {
                     <img className="linkedin" style={{ height: '24px', width: '24px' }} src={require("./images/linkedin-3-32.png").default} alt="linkedin-logo" />
                   </a>
                 </li>
-                <li class="nav-item">
+                {/* <li class="nav-item">
                   <Link class="nav-link" style = {{textDecoration: 'none', color: 'white'}} to="/Projects">Projects</Link>
-                </li>
+                </li> */}
                 <li class="nav-item">
                   <a class="nav-link" style = {{textDecoration: 'none', color: 'white'}} href="mailto:linh.hoangtt99@gmail.com">Contact</a>
                 </li>
@@ -41,9 +41,9 @@ class App extends React.Component {
             </div>
           </nav>
           <Switch>
-            <Route path="/Projects">
+            {/* <Route path="/Projects">
               <Projects/>
-            </Route>
+            </Route> */}
             <Route path="/Resume">
               <Resume/>
             </Route>
